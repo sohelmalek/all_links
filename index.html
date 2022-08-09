@@ -17,7 +17,7 @@
         .all_links_div {
             position: fixed;
             top: 3rem;transition: .3s;
-            right: -8rem;
+            right: -8rem;z-index: 9999999;
         }
         .all_links_div_open{
             right: 0;
@@ -44,6 +44,10 @@
             from {
                 transform: rotate(360deg);
             }
+        }
+        iframe{
+            width: 100%;
+
         }
     </style>
     <script>
