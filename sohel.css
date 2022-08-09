@@ -9,8 +9,10 @@
 
 
 .setting_div {
+    border-radius: 0 0 0 5px;
     width: 8rem;
-    background-color: red;
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .p-2 {
@@ -23,12 +25,15 @@
 
 .d_flex {
     display: flex !important;
-}  #all_links_div {
+}
+
+#all_links_div {
     position: fixed;
     top: 25vh;
     transition: .3s;
     width: 10rem;
     display: -webkit-box;
+    height: 14rem;
     right: -8.2rem;
     z-index: 9999999;
 }
@@ -51,11 +56,14 @@
     all: unset;
     display: grid;
     place-content: center;
-    background-color: red;
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
     height: 2rem;
     width: 2rem;
     border-radius: 5px 0 0 5px;
 }
-.setting_div a{
+
+.setting_div a {
     color: rgb(27, 27, 27);
 }
