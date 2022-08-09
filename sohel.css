@@ -21,7 +21,7 @@
     align-items: flex-start !important;
 }
 
-.d-flex {
+.d_flex {
     display: flex !important;
 }  #all_links_div {
     position: fixed;
@@ -30,7 +30,7 @@
     width: 10rem;
     display: -webkit-box;
     right: -8.2rem;
-    z-index: 999;
+    z-index: 9999999;
 }
 
 .all_links_div_open {
@@ -55,4 +55,7 @@
     height: 2rem;
     width: 2rem;
     border-radius: 5px 0 0 5px;
+}
+.setting_div a{
+    color: rgb(27, 27, 27);
 }
