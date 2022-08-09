@@ -1,0 +1,26 @@
+.setting_div p a {
+    text-decoration: none;
+}
+
+.setting_div p {
+    margin: 3px 0;
+}
+
+
+
+.setting_div {
+    width: 8rem;
+    background-color: red;
+}
+
+.p-2 {
+    padding: 0.5rem !important;
+}
+
+.align-items-start {
+    align-items: flex-start !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
