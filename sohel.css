@@ -23,4 +23,36 @@
 
 .d-flex {
     display: flex !important;
+}  #all_links_div {
+    position: fixed;
+    top: 25vh;
+    transition: .3s;
+    width: 10rem;
+    display: -webkit-box;
+    right: -8.2rem;
+    z-index: 9999999;
+}
+
+.all_links_div_open {
+    right: 0 !important;
+}
+
+.setting_icon_svg {
+    animation: rotate_svg 2s infinite linear;
+}
+
+@keyframes rotate_svg {
+    from {
+        transform: rotate(360deg);
+    }
+}
+
+.setting_icon {
+    all: unset;
+    display: grid;
+    place-content: center;
+    background-color: red;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 5px 0 0 5px;
 }
