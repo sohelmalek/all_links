@@ -36,8 +36,9 @@
     height: 14rem !important;
     right: -8.2rem;
     z-index: 9999999;
+}iframe.all_links_div{
+    height: 14rem;
 }
-
 .all_links_div_open {
     right: 0 !important;
 }
